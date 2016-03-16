@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/hitpoints.css">
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<!--  <meta http-equiv="refresh" content="3" /> -->
+<body>
+<div class="name">
+	<h1>Name</h1> <input type="text">
+		<p>Elf: Astrafel, Daelwyn, Feliana, Damarra, Sistranalle, Pendrell, Melliandre, Dagoliir <br>Human: Baldric, Leena, Dunwick, Willem, Edwyn, Florian, Seraphine, Quorra, Charlotte, Lily, Ramonde, Cassandra</p>
+	</input>
+</div>
+
+<div class="look">
+	<h1>
+		Look
+	</h1>
+	<p>
+		Knowing Eyes, Fiery Eyes, or Joyous Eyes <br>Fancy Hair, Wild Hair, or Stylish Cap <br>Finery, Traveling Clothes, or Poor Clothes <br>Fit Body, Well-fed Body, or thin Body
+	</p>
+</div>
+
+<div class="hitpoints">
+	<div onclick="myHP()" id="hitpointvalue">0</div>
+</div>
+
+<dir>
+	<h4>Assign these scores to your stats: 16 (+2), 15 (+1), 13 (+1), 12 (+0), 9 (+0), 8 (-1)</h4>
+</dir>
+
+<div class="characteristics">
+<ul>	    
+<li>Strength <br><input type="text" id="strset" onblur="calcStrength()" ></input> <br> STR <br> <div class="outputs" id="STRoutput" > 0 </div> </li>
+
+<li>Dexterity <br><input type="text" id="dexset" onblur="calcDexterity()"></input> <br> DEX <br> <div class="outputs" id="DEXoutput" > 0 </div> </li>
+
+<li>Constitution <br><input type="text" id="conset" onblur="calcConstitution()"  </input> <br> CON <br><div class="outputs" id="CONoutput" > 0 </div> </li>
+
+<li>Intelligence <br><input type="text" id="intset" onblur="calcIntelligence()"></input> <br> INT <br> <div class="outputs" id="INToutput" > 0 </div> </li>
+
+<li>Wisdom <br><input type="text" id="wisset" onblur="calcWisdom()"></input> <br> WIS <br> <div class="outputs" id="WISoutput"> 0 </div> </li>
+
+<li>Charisma <br><input type="text" id="chaset" onblur="calcCharisma()"></input> <br> CHA <br> <div class="outputs" id="CHAoutput"> 0 </div></li>
+
+</ul>
+</div>
+
+<br>
+
+
+<!-- tobedeleted -->
+<a href="testing.html">testing</a>
+
+</body>
+<script src="js/characteristics.js"></script>
+<script src="js/hitpoints.js"></script>
+</html>
+
+
+
+
+
+

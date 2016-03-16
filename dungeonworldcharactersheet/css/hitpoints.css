@@ -1,0 +1,20 @@
+.hitpoints div {
+border-style: solid;
+border-color: black;
+border-width: 2px;
+float: right;
+width: 60px;
+height: 45px;
+text-align: center;
+font-size: 25pt;
+position: fixed;
+top: 290px;
+left: 600px;
+border-radius: 30px;
+
+}
+
+#hitpointvalue {
+	padding-top: 10px;
+
+}

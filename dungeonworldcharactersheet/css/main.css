@@ -1,0 +1,26 @@
+body {
+background-color: blue;
+
+}
+
+
+.characteristics li {
+	float: left;
+	padding-left: 30px;
+	list-style: none;
+
+}
+
+.characteristics input {
+	width: 30px;
+	height: 20px;
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.outputs {
+	padding-left: 5px;
+	font-size: 40px;
+}
