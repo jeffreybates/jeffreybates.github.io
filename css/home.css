@@ -2,3 +2,14 @@
 	list-style: none;
 	font-size: 20pt; 
 }
+
+.background {
+	background-color: blue;
+	opacity: .5;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	left: 5px;
+	bottom: 500px;
+	z-index: -1;
+}
