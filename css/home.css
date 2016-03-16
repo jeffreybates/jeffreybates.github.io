@@ -1,6 +1,13 @@
 .menu {
 	list-style: none;
 	font-size: 20pt; 
+
+}
+
+.menu a {
+text-decoration: none;
+color: black;
+
 }
 
 .background {
