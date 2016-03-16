@@ -1,0 +1,51 @@
+
+.banner img {
+	width: 400px;
+	padding-top: 30px;
+	margin-left: 400px;
+	position: fixed;
+
+}
+
+.sectiontitle {
+	color: white;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 40pt;
+}
+
+.npcs li {
+text-align: left;
+color: white;
+list-style: none;
+padding-bottom: 20px;
+
+}
+
+.npcs li a {
+	text-decoration: none;
+	color: lightblue;
+}
+
+
+.adventures li {
+	max-width: 400px;
+	list-style: none;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.theplayers ul {
+	position: absolute;
+	right: 50px;
+	top: 0;
+	color: white;
+}
+
+.theplayers li {
+	list-style: none;
+}
+
+
+
+
