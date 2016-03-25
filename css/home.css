@@ -1,7 +1,18 @@
+
+
+#menuContainer ul {
+
+}
+
 .menu {
 	list-style: none;
 	font-size: 20pt; 
+}
 
+
+.menu li {
+	float: left
+	;
 }
 
 .menu a {
@@ -19,4 +30,22 @@ color: black;
 	left: 5px;
 	bottom: 500px;
 	z-index: -1;
+}
+
+p {
+	width: 80%;
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+.content img {
+padding-left: 50px;
+padding-right: 50px;
+width: 90%;
+}
+
+.content video {
+padding-left: 50px;
+padding-right: 50px;
+width: 90%;
 }
