@@ -1,3 +1,5 @@
+
+
 #menuContainer ul {
 
 }
@@ -37,6 +39,12 @@ p {
 }
 
 .content img {
+padding-left: 50px;
+padding-right: 50px;
+width: 90%;
+}
+
+.content video {
 padding-left: 50px;
 padding-right: 50px;
 width: 90%;
