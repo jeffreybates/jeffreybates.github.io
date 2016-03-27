@@ -9,13 +9,40 @@ body {
 .menu {
 	list-style: none;
 	font-size: 20pt; 
+	border-style: solid;
+	border-width: 1px;
+	: 100px;
+	padding-right: 100px;
+
+	font-weight: lighter;
 }
 
 
-.menu li {
-	float: left
-	;
+.iPhone {
+
+	position: fixed;
+	top: 30px;
+	left: 20%;
 }
+
+.iPad {
+	position: fixed;
+	top: 30px;
+	left: 37%;
+}
+
+.Web {
+	position: fixed;
+	top: 30px;
+	left: 50%;
+}
+
+.About {
+	position: fixed;
+	top: 30px;
+	left: 65%;
+}
+
 
 .menu a {
 text-decoration: none;
