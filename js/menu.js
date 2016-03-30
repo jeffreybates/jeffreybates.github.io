@@ -9,7 +9,7 @@ document.getElementById("back7").style.display = 'none';
 document.getElementById("back8").style.display = 'none';
 
 // list item one
-document.getElementById("1st").onmouseover = function() {overone()};
+document.getElementById("1st").onclick = function() {overone()};
 document.getElementById("1st").onmouseout = function() {outone()};
 
 function overone() {
@@ -40,7 +40,7 @@ function outone() {
 }
 
 // list item two
-document.getElementById("2nd").onmouseover = function() {overtwo()};
+document.getElementById("2nd").onclick = function() {overtwo()};
 document.getElementById("2nd").onmouseout = function() {outtwo()};
 
 function overtwo() {
@@ -68,7 +68,7 @@ function outtwo() {
 }
 
 // list item three
-document.getElementById("3rd").onmouseover = function() {overthree()};
+document.getElementById("3rd").onclick = function() {overthree()};
 document.getElementById("3rd").onmouseout = function() {outthree()};
 
 
@@ -99,7 +99,7 @@ function outthree() {
 }
 
 // list item four
-document.getElementById("4th").onmouseover = function() {overfour()};
+document.getElementById("4th").onclick = function() {overfour()};
 document.getElementById("4th").onmouseout = function() {outfour()};
 
 
@@ -131,7 +131,7 @@ function outfour() {
 }
 
 // list item five
-document.getElementById("5th").onmouseover = function() {overfive()};
+document.getElementById("5th").onclick = function() {overfive()};
 document.getElementById("5th").onmouseout = function() {outfive()};
 
 
@@ -149,7 +149,7 @@ function outfive() {
 }
 
 // list item six
-document.getElementById("6th").onmouseover = function() {oversix()};
+document.getElementById("6th").onclick = function() {oversix()};
 document.getElementById("6th").onmouseout = function() {outsix()};
 
 
@@ -167,7 +167,7 @@ function outsix() {
 }
 
 // list item seven
-document.getElementById("7th").onmouseover = function() {overseven()};
+document.getElementById("7th").onclick = function() {overseven()};
 	document.getElementById("7th").onmouseout = function() {outseven()};
 
 
@@ -185,7 +185,7 @@ function outseven() {
 }
 
 // list item eight
-document.getElementById("8th").onmouseover = function() {overeight()};
+document.getElementById("8th").onclick = function() {overeight()};
 document.getElementById("8th").onmouseout = function() {outeight()};
 
 
