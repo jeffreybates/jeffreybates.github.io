@@ -1,4 +1,15 @@
 body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+
+body {
 	font-family: 'Helvetica Neue';
 }
 
@@ -86,22 +97,36 @@ width: 90%;
 }
 
 
-.navigationarrow {
-	width: 0;
-	height: 0;
-	border-top: 50px solid transparent;
-	border-left: 100px solid blue;
-	border-bottom: 50px solid transparent;
-	position: fixed;
-	top: 30%;
-	right: 50px;
-	opacity: .5;
+.navigationarrow{
+  width:80px;
+  height:5px;
+  background:tomato;
 }
 
-.navigationarrow p {
-	color: black;
-	opacity: 1.5;
-	font-size: 20pt;
+.navigationarrow:after{
+  position:absolute;
+  content:"";
+  transform:rotate(45deg);
+  top:-10px;
+  right:0;
+  width:20px;
+  height:20px;
+  background:transparent;
+  border-right:5px solid tomato;
+  border-top:5px solid tomato;
+}
+
+.navigationarrow {
+	position: fixed;
+	top: 700px;
+	right: 100px;
+
+}
+
+.nextText {
+position: fixed;
+top: 650px;
+right: 100px;
 }
 
 
