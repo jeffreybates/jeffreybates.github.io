@@ -30,8 +30,6 @@ document.getElementById("content3").onclick = function() {
 	document.getElementById("content2").style.display = 'none';
 	document.getElementById("content3").style.display = 'none';
 
-
-	document.getElementById("content6").style.display = 'none';
 }
 
 document.getElementById("content4").onclick = function() {
