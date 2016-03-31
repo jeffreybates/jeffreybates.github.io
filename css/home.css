@@ -36,25 +36,25 @@ body {
 
 	position: fixed;
 	top: 30px;
-	left: 20%;
+	left: 21%;
 }
 
 .iPad {
 	position: fixed;
 	top: 30px;
-	left: 37%;
+	left: 39%;
 }
 
 .Web {
 	position: fixed;
 	top: 30px;
-	left: 50%;
+	left: 55%;
 }
 
 .About {
 	position: fixed;
 	top: 30px;
-	left: 65%;
+	left: 70%;
 }
 
 
@@ -108,8 +108,9 @@ top: 300px;
 }
 
 .next {
-	color: darkgrey;
-	text-align: center;
+	color: blue;
+	font-weight: lighter;
+	text-align: right;
 	position: fixed;
 	top: 220px;
 	z-index: 2;
