@@ -15,7 +15,7 @@ document.getElementById("1st").onmouseout = function() {outone()};
 function overone() {
 	document.getElementById("1st").style.fontSize = "25pt";
 		document.getElementById("1st").style.opacity = "1";
-			document.getElementById("back1").style.display = 'block';
+				$("#back1").fadeIn(1000);
 
 		// hide others
 				document.getElementById("back2").style.display = 'none';
@@ -46,8 +46,7 @@ document.getElementById("2nd").onmouseout = function() {outtwo()};
 function overtwo() {
 	document.getElementById("2nd").style.fontSize = "25pt";
 		document.getElementById("2nd").style.opacity = "1";
-			document.getElementById("back2").style.display = "block";
-
+			$("#back2").fadeIn(1000);
 			// hide others
 			document.getElementById("back1").style.display = 'none';
 			document.getElementById("back3").style.display = 'none';
@@ -75,7 +74,7 @@ document.getElementById("3rd").onmouseout = function() {outthree()};
 function overthree() {
 	document.getElementById("3rd").style.fontSize = "25pt";
 		document.getElementById("3rd").style.opacity = "1";
-			document.getElementById("back3").style.display = "block";
+		$("#back3").fadeIn(1000);
 
 			// hide others
 			document.getElementById("back1").style.display = 'none';
@@ -106,7 +105,7 @@ document.getElementById("4th").onmouseout = function() {outfour()};
 function overfour() {
 	document.getElementById("4th").style.fontSize = "25pt";
 		document.getElementById("4th").style.opacity = "1";
-			document.getElementById("back4").style.display = "block";
+					$("#back4").fadeIn(1000);
 
 			// hide others
 			document.getElementById("back1").style.display = 'none';
@@ -138,8 +137,6 @@ document.getElementById("5th").onmouseout = function() {outfive()};
 function overfive() {
 	document.getElementById("5th").style.fontSize = "25pt";
 		document.getElementById("5th").style.opacity = "1";
-			document.getElementById("back5").style.display = "block";
-
 }
 
 function outfive() {
