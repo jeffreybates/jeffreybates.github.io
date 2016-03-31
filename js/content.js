@@ -17,6 +17,9 @@ document.getElementById("content1").onclick = function() {
 document.getElementById("content2").onclick = function() {
 	document.getElementById("content3").style.display = 'block';
 
+
+
+
 // hide everything else 
 	document.getElementById("content2").style.display = 'none';
 }
