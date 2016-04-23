@@ -114,18 +114,16 @@ top: 200px;
 }
 
 
-}
 
-.next {
+/*.next {
 	background-color: blue;
 	color: pink;
 	font-weight: lighter;
 	font-size: 100pt;
-}
+}*/
 
 .blurbtitle{
 	font-size: 20pt;
-	color: blue;
 	font-weight: lighter;
 
 	position: fixed;
