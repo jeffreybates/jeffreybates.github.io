@@ -91,7 +91,7 @@ padding-right: 80px;
 width: 90%;
 
 position: fixed;
-top: 300px;
+top: 200px;
 z-index: -1;
 }
 
@@ -101,30 +101,35 @@ padding-right: 50px;
 width: 90%;
 
 position: fixed;
-top: 300px;
+top: 200px;
+}
+
+#content1, #content2, #content3, #content4, #content5, #content6 {
+	margin-top: 100px;
 }
 
 #profilepic {
 	border-radius: 100%;
 	width: 20%;
-	background-color: blue;
 }
 
 
 }
 
 .next {
-	color: blue;
+	background-color: blue;
+	color: pink;
 	font-weight: lighter;
-	text-align: right;
-	position: fixed;
-	top: 220px;
-	font-size: 20pt;
+	font-size: 100pt;
 }
 
 .blurbtitle{
 	font-size: 20pt;
 	color: blue;
+	font-weight: lighter;
+
+	position: fixed;
+	top: 50px;
 }
 
 .blurb {
