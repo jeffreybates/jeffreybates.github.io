@@ -32,7 +32,7 @@ body {
 	transform: scaleY(.2);
 }
 
-.iPhone {
+.About {
 
 	position: fixed;
 	top: 30px;
@@ -42,7 +42,7 @@ body {
 .iPad {
 	position: fixed;
 	top: 30px;
-	left: 39%;
+	left: 45%;
 }
 
 .Web {
@@ -52,10 +52,10 @@ body {
 	display: none;
 }
 
-.About {
+.iPhone {
 	position: fixed;
 	top: 30px;
-	left: 70%;
+	left: 65%;
 }
 
 
