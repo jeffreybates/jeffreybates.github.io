@@ -7,11 +7,11 @@ $( "#phaseOne" ).hide(function(){
 
 $( "#content1" ).click(function() {
 
-  $( "#phaseOne" ).fadeIn( 1500, function() {
+  $( "#phaseOne" ).fadeIn( 300, function() {
     // Animation complete.
   });
 
-  $( "#phaseOne" ).fadeOut( 1500, function() {
+  $( "#phaseOne" ).fadeOut( 300, function() {
     // Animation complete.
   });
 });
@@ -20,11 +20,11 @@ $( "#content1" ).click(function() {
 
 $( "#1st" ).click(function() {
 
-  $( "#phaseOne" ).fadeIn( 1500, function() {
+  $( "#phaseOne" ).fadeIn( 300, function() {
     // Animation complete.
   });
 
-  $( "#phaseOne" ).fadeOut( 1500, function() {
+  $( "#phaseOne" ).fadeOut( 300, function() {
     // Animation complete.
   });
 });

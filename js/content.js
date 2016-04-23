@@ -7,7 +7,7 @@ $("#content6").hide();
 
 
 document.getElementById("content1").onclick = function() {
-	$("#content2").fadeIn(1000);
+	$("#content2").fadeIn(300);
 
 // hide everything else 
 	document.getElementById("content1").style.display = 'none';
@@ -16,7 +16,7 @@ document.getElementById("content1").onclick = function() {
 
 document.getElementById("content2").onclick = function() {
 	// document.getElementById("content3").style.display = 'block';
-	$("#content3").fadeIn(1000);
+	$("#content3").fadeIn(300);
 
 
 // hide everything else 
@@ -24,7 +24,7 @@ $("#content2").hide();
 }
 
 document.getElementById("content3").onclick = function() {
-	$("#content4").fadeIn(1000);
+	$("#content4").fadeIn(300);
 
 // hide everything else 
 	document.getElementById("content3").style.display = 'none';
@@ -32,7 +32,7 @@ document.getElementById("content3").onclick = function() {
 }
 
 document.getElementById("content4").onclick = function() {
-	$("#content1").fadeIn(1000);
+	$("#content1").fadeIn(300);
 
 // hide everything else 
 
@@ -40,7 +40,7 @@ document.getElementById("content4").onclick = function() {
 }
 
 document.getElementById("content5").onclick = function() {
-	$("#content6").fadeIn(1000);
+	$("#content6").fadeIn(300);
 
 // hide everything else 
 
@@ -49,7 +49,7 @@ document.getElementById("content5").onclick = function() {
 }
 
 document.getElementById("content6").onclick = function() {
-	$("#content5").fadeIn(1000);
+	$("#content5").fadeIn(300);
 
 // hide everything else 
 	

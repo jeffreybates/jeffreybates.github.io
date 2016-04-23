@@ -49,6 +49,7 @@ body {
 	position: fixed;
 	top: 30px;
 	left: 55%;
+	display: none;
 }
 
 .About {
@@ -104,7 +105,12 @@ top: 300px;
 }
 
 #profilepic {
-	width: 350px;
+	border-radius: 100%;
+	width: 20%;
+	background-color: blue;
+}
+
+
 }
 
 .next {
@@ -145,3 +151,19 @@ color: grey;
 	right: 100px;
 
 }
+
+#back4 {
+	padding-top: 100px;
+	padding-left: 200px;
+}
+
+#back4 p {
+	margin-left: -100px;
+	font-size: 21pt;
+	font-weight: lighter;
+}
+
+
+
+
+
